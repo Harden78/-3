@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore by Horoshun Denis</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<header>
+    <h1>TechStore by Horoshun Denis</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Головна</a></li>
+            <li><a href="#">Продукти</a></li>
+            <li><a href="#">Контакти</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main-content">
+    <section class="products">
+
+        <div class="product">
+            <img src="https://xistore.by/upload/resize/element/3530/f74/dea7966ccabe574c25b4ad8712aa9bf5_434_434_80.jpg" alt="Xiaomi Mi A1"/>
+            <h3>Xiaomi Mi A1</h3>
+            <p>Бюджетний монстр</p>
+            <a href="https://www.mi.com/" target="_blank" class="btn">Детальніше</a>
+        </div>
+
+        <div class="product">
+            <img src="https://cdn0.it4profit.com/s3/cms/category/3a/7f/3a7f068d15929c89edbdba77486dd020/iphone_17_pro_cosmic_orange_pdp_image_position_1_ce_ww_fon_udalen_1_photoroom.webp" alt="iPhone 17 Pro"/>
+            <h3>iPhone 17 Pro</h3>
+            <p>Потужний та стильний</p>
+            <a href="https://www.apple.com/" target="_blank" class="btn">Детальніше</a>
+        </div>
+
+        <div class="product">
+            <img src="https://s.ek.ua/jpg_zoom1/2189285.jpg" alt="Samsung Galaxy A54"/> 
+            <h3>Samsung Galaxy A54</h3>
+            <p>Смарт та ефективний</p>
+            <a href="https://www.samsung.com/" target="_blank" class="btn">Детальніше</a>
+        </div>
+        
+    </section>
+</main>
+
+<footer>
+    <div class="footer-container">
+        <p>Контакти: +380 50 123 4567 | email@example.com</p>
+        <p>Соцмережі: Facebook | Twitter | Instagram</p>
+    </div>
+</footer>
+
+</body>
+</html>

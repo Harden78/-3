@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Візитка розробника</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h1>Хорошун Денис</h1>
+    <p>Початківець front-end розробник, який вивчає HTML, CSS та JavaScript</p>
+    <a href="mailto:yourmail@example.com" class="btn">Написати мені</a>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MEGOGO — Вхід</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page">
+
+  <header class="header">
+    <div class="container header__row">
+      <div class="logo">MEGOGO</div>
+
+      <nav class="nav">
+        <a class="nav__link" href="index.html">Телеканали</a>
+        <a class="nav__link" href="index.html">Фільми</a>
+
+        <div class="dropdown">
+          <button class="dropdown__btn" type="button">
+            МУЛЬТФІЛЬМИ
+            <span class="chev">▾</span>
+          </button>
+
+          <div class="dropdown__menu">
+            <a href="#" class="dropdown__item">Підбірка для дітей 0–6</a>
+            <a href="#" class="dropdown__item">Сімейні хіти</a>
+            <a href="#" class="dropdown__item">Класика студій</a>
+            <a href="#" class="dropdown__item dropdown__item--accent">Премʼєри</a>
+          </div>
+        </div>
+
+        <a class="nav__link" href="index.html">Серіали</a>
+        <a class="nav__link" href="index.html">Шоу</a>
+        <a class="nav__link" href="index.html">Спорт</a>
+        <a class="nav__link" href="index.html">Освіта</a>
+        <a class="nav__link nav__more" href="#">…</a>
+      </nav>
+
+      <div class="header__right">
+        <a class="chip" href="index.html">Тарифи</a>
+        <a class="icon-btn" href="#" aria-label="Пошук">🔎</a>
+        <a class="lang" href="#">UA</a>
+        <a class="login login--active" href="#">Увійти</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="auth">
+    <div class="auth__card">
+      <h2 class="auth__title">Вхід / Реєстрація</h2>
+
+      <form class="form" action="#">
+        <label class="field">
+          <span class="field__label">Логін</span>
+          <input class="field__input" type="text" placeholder="email або номер" required />
+        </label>
+
+        <label class="field">
+          <span class="field__label">Пароль</span>
+          <input class="field__input" type="password" placeholder="••••••••" required />
+        </label>
+
+        <div class="form__actions">
+          <button class="btn btn--orange" type="submit">Увійти</button>
+          <button class="btn btn--ghost" type="button">Зареєструватись</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(180deg, #6ec6ff, #4fb3ff);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Візитка */
+.card {
+  width: 500px;
+  max-width: 90%;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  animation: float 3s ease-in-out infinite;
+}
+
+.card h1 {
+  font-size: 32px;
+  color: #222;
+  margin-bottom: 12px;
+}
+
+.card p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+/* Кнопка */
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #5fa9ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 999px;
+
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background: #3f92ff;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(63, 146, 255, 0.4);
+}
+
+/* Анімація плавання */
+@keyframes float {
+  0% {
+    transform: translate(-50%, -50%) translateY(0);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-15px);
+  }
+  100% {
+    transform: translate(-50%, -50%) translateY(0);
+  }
+}
